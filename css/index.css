@@ -71,6 +71,11 @@ p {
     margin: 0 auto;
 }
 
+.topper {
+    display: flex;
+    justify-content: center;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +109,42 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.boxes div:nth-child(1) {
+  background: teal;
+}
+.boxes div:nth-child(2) {
+  background: gold;
+}
+.boxes div:nth-child(3) {
+  background: cadetblue;
+}
+.boxes div:nth-child(4) {
+  background: coral;
+}
+.boxes div:nth-child(5) {
+  background: crimson;
+}
+.boxes div:nth-child(6) {
+  background: forestgreen;
+}
+.boxes div:nth-child(7) {
+  background: darkorchid;
+}
+.boxes div:nth-child(8) {
+  background: hotpink;
+}
+.boxes div:nth-child(9) {
+  background: indigo;
+}
+.boxes div:nth-child(10) {
+  background: dodgerblue;
 }
 
 .bottom-content {
