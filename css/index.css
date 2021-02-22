@@ -85,9 +85,9 @@ p {
     justify-content: center;
 }
 
-.buttons {
+.buttons1, .buttons2, .buttons3, .buttons4, {
 display: flex;
-justify-content: column;
+justify-content: row;
 
 }
 
