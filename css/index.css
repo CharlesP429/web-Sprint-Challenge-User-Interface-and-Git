@@ -57,7 +57,8 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 20px;
+    text-decoration:double;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -70,6 +71,26 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
+.header-nav, .lambda {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    
+  }
+  
+
+.topper {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons1, .buttons2, .buttons3, .buttons4, {
+display: flex;
+justify-content: row;
+
+}
+
 
 .top-content {
     display: flex;
@@ -104,12 +125,42 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.boxes div:nth-child(1) {
+  background: teal;
+}
+.boxes div:nth-child(2) {
+  background: gold;
+}
+.boxes div:nth-child(3) {
+  background: cadetblue;
+}
+.boxes div:nth-child(4) {
+  background: coral;
+}
+.boxes div:nth-child(5) {
+  background: crimson;
+}
+.boxes div:nth-child(6) {
+  background: forestgreen;
+}
+.boxes div:nth-child(7) {
+  background: darkorchid;
+}
+.boxes div:nth-child(8) {
+  background: hotpink;
+}
+.boxes div:nth-child(9) {
+  background: indigo;
+}
+.boxes div:nth-child(10) {
+  background: dodgerblue;
 }
 
 .bottom-content {
