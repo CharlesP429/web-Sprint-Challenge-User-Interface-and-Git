@@ -57,7 +57,8 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 20px;
+    text-decoration:double;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -71,10 +72,25 @@ p {
     margin: 0 auto;
 }
 
+.header-nav, .lambda {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    
+  }
+  
+
 .topper {
     display: flex;
     justify-content: center;
 }
+
+.buttons {
+display: flex;
+justify-content: column;
+
+}
+
 
 .top-content {
     display: flex;
